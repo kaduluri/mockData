@@ -57,6 +57,19 @@
 			  {"startTime":"2:00 PM","endTime":"2:30 PM"},{"startTime":"3:00 PM","endTime":"3:30 PM"},{"startTime":"4:00 PM","endTime":"4:30 PM"}
 			]
 		
-		}
+		},
+	"appoitmentTable":{
+			"status":"testing",
+			"data":[
+				{id:"1",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"},
+				{id:"2",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"},
+				{id:"3",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"},
+				{id:"4",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"},
+				{id:"5",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"},
+				{id:"6",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"},
+				{id:"7",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"},
+				{id:"8",name:"Sisko",service:"Physio",provider:"Ramo",date:"2022-10-02"}
+			  ]
+	}
 	
 }
