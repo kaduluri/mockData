@@ -115,20 +115,6 @@
             "apptDuration": 30
         }
     ]
-},
-	"slots":{
-    "status": "SUCCESSFUL",
-    "statusCode": 200,
-    "statusDescription": "",
-    "data": [
-		{"serviceid":1,"dayOfweek":"Monday","startTime":"10:00","endTime":"10:30","slotSize":"30","providerId":2},
-		{"serviceid":1,"dayOfweek":"Monday","startTime":"11:00","endTime":"11:30","slotSize":"30","providerId":2},
-		{"serviceid":1,"dayOfweek":"Tuesday","startTime":"10:00","endTime":"10:30","slotSize":"30","providerId":2},
-		{"serviceid":1,"dayOfweek":"Wednesday","startTime":"10:00","endTime":"10:30","slotSize":"30","providerId":2},
-		{"serviceid":2,"dayOfweek":"Monday","startTime":"10:00","endTime":"10:45","slotSize":"45","providerId":1},
-		{"serviceid":2,"dayOfweek":"Tuesday","startTime":"12:00","endTime":"12:30","slotSize":"30","providerId":1},
-		{"serviceid":1,"dayOfweek":"Friday","startTime":"09:00","endTime":"10:00","slotSize":"60","providerId":2}
-	]
-	}
+}
 	
 }
