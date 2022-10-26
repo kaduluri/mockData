@@ -1,120 +1,311 @@
 {
-	"providers": 
-		{
-			"status": "testing",
-			"data": [
-				{
-					"id": 1,
-					"providerName": "Benjamin Sisko",
-					"serviceId": 4
-				},
-				{
-					"id": 2,
-					"providerName": "Kira Neyres",
-					"serviceId": 5
-				},
-				{
-					"id": 3,
-					"providerName": "Jadziya Dax",
-					"serviceId": 6
-				},
-				{
-					"id": 4,
-					"providerName": "Odo",
-					"serviceId": 7
-				},
-				{
-					"id": 5,
-					"providerName": "Gul Dukat",
-					"serviceId": 8
-				}
-			]
-		},
-	"appointments":
-		{
-			"status":"testing",
-			"data":[
-				{
-					"providerId":2,
-					"availableDates":["2022-09-24T00:00:00.000+00:00","2022-09-25T00:00:00.000+00:00","2022-09-27T00:00:00.000+00:00","2022-09-28T00:00:00.000+00:00"]
-				},
-				{
-					"providerId":3,
-					"availableDates":["2022-09-19T00:00:00.000+00:00","2022-09-25T00:00:00.000+00:00","2022-09-27T00:00:00.000+00:00","2022-09-28T00:00:00.000+00:00"]
-				},
-				{
-					"providerId":4,
-					"availableDates":["2022-09-18T00:00:00.000+00:00","2022-09-20T00:00:00.000+00:00","2022-09-27T00:00:00.000+00:00","2022-09-28T00:00:00.000+00:00"]
-				}
-			]
-		},
-	"timeSlots":{
-			"status":"testing",
-			"appointmentDate":"09-25-2022",
-			"data":[
-				{"startTime":"8:00 AM","endTime":"8:30 AM"},{"startTime":"9:00 AM","endTime":"9:30 AM"},{"startTime":"10:00 AM","endTime":"10:30 AM"},
-			  {"startTime":"11:00 AM","endTime":"11:30 AM"},{"startTime":"12:00 PM","endTime":"12:30 PM"},{"startTime":"1:00 PM","endTime":"1:30 PM"},
-			  {"startTime":"2:00 PM","endTime":"2:30 PM"},{"startTime":"3:00 PM","endTime":"3:30 PM"},{"startTime":"4:00 PM","endTime":"4:30 PM"}
-			]
-		
-		},
-	"appoitmentTable":{
-			"status":"testing",
-			"data":[
-				{"id":"1","name":"Sisko","service":"Physio","provider":"Ramo","date":"2022-10-02"},
-				{"id":"2","name":"Ben","service":"Electro","provider":"Bekectt","date":"2022-11-02"},
-				{"id":"3","name":"Paris","service":"Cardio","provider":"Boimler","date":"2022-12-02"},
-				{"id":"4","name":"Rhanerya","service":"Radio","provider":"Ruther","date":"2022-10-20"},
-				{"id":"5","name":"Rheneys","service":"Cosmo","provider":"Eia","date":"2022-10-12"},
-				{"id":"6","name":"Corleys","service":"Anest","provider":"Freeman","date":"2022-10-22"},
-				{"id":"7","name":"Lenor","service":"Nephro","provider":"Matt Smith","date":"2022-10-01"},
-				{"id":"8","name":"Aegon","service":"Physio","provider":"James Kirk","date":"2022-10-06"},
-				{"id":"9","name":"Kathrine","service":"Chemo","provider":"Ben solo","date":"2022-10-07"},
-				{"id":"10","name":"Pulaski","service":"Donto","provider":"Kassian Andor","date":"2022-09-02"},
-				{"id":"11","name":"Beverly","service":"Ponto","provider":"Nia","date":"2022-08-12"},
-				{"id":"12","name":"Crusher","service":"Konto","provider":"Kia","date":"2022-07-09"},
-				{"id":"13","name":"Jadzia","service":"Pento","provider":"Ramos","date":"2022-10-15"},
-				{"id":"14","name":"Neyres","service":"Wont","provider":"Rios","date":"2022-10-18"},
-				{"id":"15","name":"Quark","service":"Physio","provider":"Raffe","date":"2022-10-27"},
-				{"id":"16","name":"Gul Dukat","service":"Physio","provider":"Agnes Juratti","date":"2022-10-20"},
-				{"id":"17","name":"Julian Bashir","service":"Physio","provider":"Nellix","date":"2022-10-10"},
-				{"id":"18","name":"Miles O Brian","service":"Physio","provider":"Picardo","date":"2022-10-19"}
-			  ]
-		},
-	"services":{
-    "status": "SUCCESSFUL",
-    "statusCode": 200,
-    "statusDescription": "",
-    "data": [
-        {
-            "id": 1,
-            "serviceName": "Cardiologist",
-            "serviceDesc": null,
-            "locationId": 1,
-            "apptDuration": 15
-        },
-        {
-            "id": 2,
-            "serviceName": "XRay",
-            "serviceDesc": null,
-            "locationId": 2,
-            "apptDuration": 30
-        },
-	    {
-            "id": 3,
-            "serviceName": "Nephro",
-            "serviceDesc": "Nephro",
-            "locationId": 2,
-            "apptDuration": 30
-        },
-	    {
-            "id": 3,
-            "serviceName": "Physio",
-            "serviceDesc": "",
-            "locationId": 2,
-            "apptDuration": 30
-        }
-    ]
-}
-	
+	"providers": {
+		"status": "testing",
+		"data": [{
+				"id": 1,
+				"providerName": "Benjamin Sisko",
+				"serviceId": 4
+			},
+			{
+				"id": 2,
+				"providerName": "Kira Neyres",
+				"serviceId": 5
+			},
+			{
+				"id": 3,
+				"providerName": "Jadziya Dax",
+				"serviceId": 6
+			},
+			{
+				"id": 4,
+				"providerName": "Odo",
+				"serviceId": 7
+			},
+			{
+				"id": 5,
+				"providerName": "Gul Dukat",
+				"serviceId": 8
+			}
+		]
+	},
+	"appointments": {
+		"status": "testing",
+		"data": [{
+				"providerId": 2,
+				"availableDates": ["2022-09-24T00:00:00.000+00:00", "2022-09-25T00:00:00.000+00:00", "2022-09-27T00:00:00.000+00:00", "2022-09-28T00:00:00.000+00:00"]
+			},
+			{
+				"providerId": 3,
+				"availableDates": ["2022-09-19T00:00:00.000+00:00", "2022-09-25T00:00:00.000+00:00", "2022-09-27T00:00:00.000+00:00", "2022-09-28T00:00:00.000+00:00"]
+			},
+			{
+				"providerId": 4,
+				"availableDates": ["2022-09-18T00:00:00.000+00:00", "2022-09-20T00:00:00.000+00:00", "2022-09-27T00:00:00.000+00:00", "2022-09-28T00:00:00.000+00:00"]
+			}
+		]
+	},
+	"timeSlots": {
+		"status": "testing",
+		"appointmentDate": "09-25-2022",
+		"data": [{
+				"startTime": "8:00 AM",
+				"endTime": "8:30 AM"
+			}, {
+				"startTime": "9:00 AM",
+				"endTime": "9:30 AM"
+			}, {
+				"startTime": "10:00 AM",
+				"endTime": "10:30 AM"
+			},
+			{
+				"startTime": "11:00 AM",
+				"endTime": "11:30 AM"
+			}, {
+				"startTime": "12:00 PM",
+				"endTime": "12:30 PM"
+			}, {
+				"startTime": "1:00 PM",
+				"endTime": "1:30 PM"
+			},
+			{
+				"startTime": "2:00 PM",
+				"endTime": "2:30 PM"
+			}, {
+				"startTime": "3:00 PM",
+				"endTime": "3:30 PM"
+			}, {
+				"startTime": "4:00 PM",
+				"endTime": "4:30 PM"
+			}
+		]
+
+	},
+	"appoitmentTable": {
+		"status": "testing",
+		"data": [{
+				"id": "1",
+				"name": "Sisko",
+				"service": "Physio",
+				"provider": "Ramo",
+				"date": "2022-10-02"
+			},
+			{
+				"id": "2",
+				"name": "Ben",
+				"service": "Electro",
+				"provider": "Bekectt",
+				"date": "2022-11-02"
+			},
+			{
+				"id": "3",
+				"name": "Paris",
+				"service": "Cardio",
+				"provider": "Boimler",
+				"date": "2022-12-02"
+			},
+			{
+				"id": "4",
+				"name": "Rhanerya",
+				"service": "Radio",
+				"provider": "Ruther",
+				"date": "2022-10-20"
+			},
+			{
+				"id": "5",
+				"name": "Rheneys",
+				"service": "Cosmo",
+				"provider": "Eia",
+				"date": "2022-10-12"
+			},
+			{
+				"id": "6",
+				"name": "Corleys",
+				"service": "Anest",
+				"provider": "Freeman",
+				"date": "2022-10-22"
+			},
+			{
+				"id": "7",
+				"name": "Lenor",
+				"service": "Nephro",
+				"provider": "Matt Smith",
+				"date": "2022-10-01"
+			},
+			{
+				"id": "8",
+				"name": "Aegon",
+				"service": "Physio",
+				"provider": "James Kirk",
+				"date": "2022-10-06"
+			},
+			{
+				"id": "9",
+				"name": "Kathrine",
+				"service": "Chemo",
+				"provider": "Ben solo",
+				"date": "2022-10-07"
+			},
+			{
+				"id": "10",
+				"name": "Pulaski",
+				"service": "Donto",
+				"provider": "Kassian Andor",
+				"date": "2022-09-02"
+			},
+			{
+				"id": "11",
+				"name": "Beverly",
+				"service": "Ponto",
+				"provider": "Nia",
+				"date": "2022-08-12"
+			},
+			{
+				"id": "12",
+				"name": "Crusher",
+				"service": "Konto",
+				"provider": "Kia",
+				"date": "2022-07-09"
+			},
+			{
+				"id": "13",
+				"name": "Jadzia",
+				"service": "Pento",
+				"provider": "Ramos",
+				"date": "2022-10-15"
+			},
+			{
+				"id": "14",
+				"name": "Neyres",
+				"service": "Wont",
+				"provider": "Rios",
+				"date": "2022-10-18"
+			},
+			{
+				"id": "15",
+				"name": "Quark",
+				"service": "Physio",
+				"provider": "Raffe",
+				"date": "2022-10-27"
+			},
+			{
+				"id": "16",
+				"name": "Gul Dukat",
+				"service": "Physio",
+				"provider": "Agnes Juratti",
+				"date": "2022-10-20"
+			},
+			{
+				"id": "17",
+				"name": "Julian Bashir",
+				"service": "Physio",
+				"provider": "Nellix",
+				"date": "2022-10-10"
+			},
+			{
+				"id": "18",
+				"name": "Miles O Brian",
+				"service": "Physio",
+				"provider": "Picardo",
+				"date": "2022-10-19"
+			}
+		]
+	},
+	"services": {
+		"status": "SUCCESSFUL",
+		"statusCode": 200,
+		"statusDescription": "",
+		"data": [{
+				"id": 1,
+				"serviceName": "Cardiologist",
+				"serviceDesc": null,
+				"locationId": 1,
+				"apptDuration": 15
+			},
+			{
+				"id": 2,
+				"serviceName": "XRay",
+				"serviceDesc": null,
+				"locationId": 2,
+				"apptDuration": 30
+			},
+			{
+				"id": 3,
+				"serviceName": "Nephro",
+				"serviceDesc": "Nephro",
+				"locationId": 2,
+				"apptDuration": 30
+			},
+			{
+				"id": 3,
+				"serviceName": "Physio",
+				"serviceDesc": "",
+				"locationId": 2,
+				"apptDuration": 30
+			}
+		]
+	},
+
+	"slots": {
+		"status": "SUCCESSFUL",
+		"statusCode": 200,
+		"statusDescription": "",
+		"data": [{
+				"serviceid": 1,
+				"dayOfweek": "Monday",
+				"startTime": "10:00",
+				"endTime": "10:30",
+				"slotSize": "30",
+				"providerId": 2
+			},
+			{
+				"serviceid": 1,
+				"dayOfweek": "Monday",
+				"startTime": "11:00",
+				"endTime": "11:30",
+				"slotSize": "30",
+				"providerId": 2
+			},
+			{
+				"serviceid": 1,
+				"dayOfweek": "Tuesday",
+				"startTime": "10:00",
+				"endTime": "10:30",
+				"slotSize": "30",
+				"providerId": 2
+			},
+			{
+				"serviceid": 1,
+				"dayOfweek": "Wednesday",
+				"startTime": "10:00",
+				"endTime": "10:30",
+				"slotSize": "30",
+				"providerId": 2
+			},
+			{
+				"serviceid": 2,
+				"dayOfweek": "Monday",
+				"startTime": "10:00",
+				"endTime": "10:45",
+				"slotSize": "45",
+				"providerId": 1
+			},
+			{
+				"serviceid": 2,
+				"dayOfweek": "Tuesday",
+				"startTime": "12:00",
+				"endTime": "12:30",
+				"slotSize": "30",
+				"providerId": 1
+			},
+			{
+				"serviceid": 1,
+				"dayOfweek": "Friday",
+				"startTime": "09:00",
+				"endTime": "10:00",
+				"slotSize": "60",
+				"providerId": 2
+			}
+		]
+	}
+
 }
