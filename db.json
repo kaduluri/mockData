@@ -4,27 +4,27 @@
 		"data": [{
 				"id": 1,
 				"providerName": "Benjamin Sisko",
-				"serviceId": 4
+				"serviceId": 2
 			},
 			{
 				"id": 2,
 				"providerName": "Kira Neyres",
-				"serviceId": 5
+				"serviceId": 3
 			},
 			{
 				"id": 3,
 				"providerName": "Jadziya Dax",
-				"serviceId": 6
+				"serviceId": 4
 			},
 			{
 				"id": 4,
 				"providerName": "Odo",
-				"serviceId": 7
+				"serviceId": 3
 			},
 			{
 				"id": 5,
 				"providerName": "Gul Dukat",
-				"serviceId": 8
+				"serviceId": 2
 			}
 		]
 	},
@@ -221,7 +221,7 @@
 				"apptDuration": 30
 			},
 			{
-				"id": 3,
+				"id": 4,
 				"serviceName": "Physio",
 				"serviceDesc": "",
 				"locationId": 2,
