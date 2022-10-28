@@ -262,28 +262,32 @@
 				"serviceName": "Cardiologist",
 				"serviceDesc": null,
 				"locationId": 1,
-				"apptDuration": 15
+				"apptDuration": 15,
+				"locationName":"CA"
 			},
 			{
 				"id": 2,
 				"serviceName": "XRay",
 				"serviceDesc": null,
 				"locationId": 2,
-				"apptDuration": 30
+				"apptDuration": 30,
+				"locationName":"AB"
 			},
 			{
 				"id": 3,
 				"serviceName": "Nephro",
 				"serviceDesc": "Nephro",
 				"locationId": 2,
-				"apptDuration": 30
+				"apptDuration": 30,
+				"locationName":"AB"
 			},
 			{
 				"id": 4,
 				"serviceName": "Physio",
 				"serviceDesc": "",
 				"locationId": 2,
-				"apptDuration": 30
+				"apptDuration": 30,
+				"locationName":"AB"
 			}
 		]
 	},
