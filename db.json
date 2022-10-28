@@ -297,6 +297,7 @@
 		"statusCode": 200,
 		"statusDescription": "",
 		"data": [{
+				"id":1,
 				"serviceid": 1,
 				"serviceName":"Cardiologist",
 				"dayOfWeek": "Monday",
@@ -307,6 +308,7 @@
 				"providerId": 2
 			},
 			{
+				"id":2,
 				"serviceid": 1,
 				"serviceName":"Cardiologist",
 				"dayOfWeek": "Monday",
@@ -317,6 +319,7 @@
 				"providerId": 2
 			},
 			{
+				"id":3,
 				"serviceid": 1,
 				"serviceName":"Cardiologist",
 				"dayOfWeek": "Tuesday",
@@ -327,6 +330,7 @@
 				"providerId": 2
 			},
 			{
+				"id":4,
 				"serviceid": 1,
 				"serviceName":"Cardiologist",
 				"dayOfWeek": "Wednesday",
@@ -337,6 +341,7 @@
 				"providerId": 2
 			},
 			{
+				"id":5,
 				"serviceid": 2,
 				"serviceName":"XRay",
 				"dayOfWeek": "Monday",
@@ -347,6 +352,7 @@
 				"providerId": 1
 			},
 			{
+				"id":6,
 				"serviceid": 2,
 				"serviceName":"XRay",
 				"dayOfWeek": "Tuesday",
@@ -357,6 +363,7 @@
 				"providerId": 1
 			},
 			{
+				"id":7,
 				"serviceid": 1,
 				"serviceName":"Cardiologist",
 				"dayOfWeek": "Friday",
