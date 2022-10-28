@@ -5,31 +5,36 @@
 				"id": 1,
 				"providerName": "Benjamin Sisko",
 				"serviceId": 2,
-				"serviceName": "Cardiologist"
+				"serviceName": "Cardiologist",
+				"regNum":"AB34RF56"
 			},
 			{
 				"id": 2,
 				"providerName": "Kira Neyres",
 				"serviceId": 3,
-				"serviceName": "XRay"
+				"serviceName": "XRay",
+				"regNum":"AN38RF56"
 			},
 			{
 				"id": 3,
 				"providerName": "Jadziya Dax",
 				"serviceId": 4,
-				"serviceName": "Nephro"
+				"serviceName": "Nephro",
+				"regNum":"AD34RT56"
 			},
 			{
 				"id": 4,
 				"providerName": "Odo",
 				"serviceId": 3,
-				"serviceName": "Physio"
+				"serviceName": "Physio",
+				"regNum":"AE36SF19"
 			},
 			{
 				"id": 5,
 				"providerName": "Gul Dukat",
 				"serviceId": 2,
-				"serviceName": "XRay"
+				"serviceName": "XRay",
+				"regNum":"AD56RH38"
 			}
 		]
 	},
