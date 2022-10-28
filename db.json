@@ -40,7 +40,7 @@
 				"apptEndTime": "09:30",
 				"customerId":15,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "2",
@@ -52,7 +52,7 @@
 				"apptEndTime": "09:30",
 				"customerId":19,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "3",
@@ -64,7 +64,7 @@
 				"apptEndTime": "09:30",
 				"customerId":15,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "4",
@@ -76,7 +76,7 @@
 				"apptEndTime": "09:30",
 				"customerId":20,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "5",
@@ -88,7 +88,7 @@
 				"apptEndTime": "09:30",
 				"customerId":26,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "6",
@@ -100,7 +100,7 @@
 				"apptEndTime": "09:30",
 				"customerId":20,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "7",
@@ -112,7 +112,7 @@
 				"apptEndTime": "09:30",
 				"customerId":26,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "8",
@@ -124,7 +124,7 @@
 				"apptEndTime": "09:30",
 				"customerId":15,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "9",
@@ -136,7 +136,7 @@
 				"apptEndTime": "09:30",
 				"customerId":19,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "10",
@@ -148,7 +148,7 @@
 				"apptEndTime": "10:30",
 				"customerId":19,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "11",
@@ -160,7 +160,7 @@
 				"apptEndTime": "11:30",
 				"customerId":30,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "12",
@@ -172,7 +172,7 @@
 				"apptEndTime": "12:30",
 				"customerId":30,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "13",
@@ -184,7 +184,7 @@
 				"apptEndTime": "09:45",
 				"customerId":32,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "14",
@@ -196,7 +196,7 @@
 				"apptEndTime": "16:30",
 				"customerId":19,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "15",
@@ -208,7 +208,7 @@
 				"apptEndTime": "13:30",
 				"customerId":26,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "16",
@@ -220,7 +220,7 @@
 				"apptEndTime": "17:30",
 				"customerId":32,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "17",
@@ -232,7 +232,7 @@
 				"apptEndTime": "18:30",
 				"customerId":30,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			},
 			{
 				"appointmentId": "18",
@@ -244,7 +244,7 @@
 				"apptEndTime": "19:30",
 				"customerId":32,
 				"serviceId":2,
-				"providerId"3
+				"providerId":3
 			}
 		]
 	},
