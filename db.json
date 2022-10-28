@@ -298,58 +298,72 @@
 		"statusDescription": "",
 		"data": [{
 				"serviceid": 1,
-				"dayOfweek": "Monday",
+				"serviceName":"Cardiologist",
+				"dayOfWeek": "Monday",
 				"startTime": "10:00",
 				"endTime": "10:30",
 				"slotSize": "30",
+				"providerName":"Kira Neyres",
 				"providerId": 2
 			},
 			{
 				"serviceid": 1,
-				"dayOfweek": "Monday",
+				"serviceName":"Cardiologist",
+				"dayOfWeek": "Monday",
 				"startTime": "11:00",
 				"endTime": "11:30",
 				"slotSize": "30",
+				"providerName":"Kira Neyres",
 				"providerId": 2
 			},
 			{
 				"serviceid": 1,
-				"dayOfweek": "Tuesday",
+				"serviceName":"Cardiologist",
+				"dayOfWeek": "Tuesday",
 				"startTime": "10:00",
 				"endTime": "10:30",
 				"slotSize": "30",
+				"providerName":"Kira Neyres",
 				"providerId": 2
 			},
 			{
 				"serviceid": 1,
-				"dayOfweek": "Wednesday",
+				"serviceName":"Cardiologist",
+				"dayOfWeek": "Wednesday",
 				"startTime": "10:00",
 				"endTime": "10:30",
 				"slotSize": "30",
+				"providerName":"Kira Neyres",
 				"providerId": 2
 			},
 			{
 				"serviceid": 2,
-				"dayOfweek": "Monday",
+				"serviceName":"XRay",
+				"dayOfWeek": "Monday",
 				"startTime": "10:00",
 				"endTime": "10:45",
 				"slotSize": "45",
+				"providerName":"Benjamin Sisko",
 				"providerId": 1
 			},
 			{
 				"serviceid": 2,
-				"dayOfweek": "Tuesday",
+				"serviceName":"XRay",
+				"dayOfWeek": "Tuesday",
 				"startTime": "12:00",
 				"endTime": "12:30",
 				"slotSize": "30",
+				"providerName":"Benjamin Sisko",
 				"providerId": 1
 			},
 			{
 				"serviceid": 1,
-				"dayOfweek": "Friday",
+				"serviceName":"Cardiologist",
+				"dayOfWeek": "Friday",
 				"startTime": "09:00",
 				"endTime": "10:00",
 				"slotSize": "60",
+				"providerName":"Kira Neyres",
 				"providerId": 2
 			}
 		]
