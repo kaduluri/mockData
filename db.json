@@ -4,27 +4,32 @@
 		"data": [{
 				"id": 1,
 				"providerName": "Benjamin Sisko",
-				"serviceId": 2
+				"serviceId": 2,
+				"serviceName": "Cardiologist"
 			},
 			{
 				"id": 2,
 				"providerName": "Kira Neyres",
-				"serviceId": 3
+				"serviceId": 3,
+				"serviceName": "XRay"
 			},
 			{
 				"id": 3,
 				"providerName": "Jadziya Dax",
-				"serviceId": 4
+				"serviceId": 4,
+				"serviceName": "Nephro"
 			},
 			{
 				"id": 4,
 				"providerName": "Odo",
-				"serviceId": 3
+				"serviceId": 3,
+				"serviceName": "Physio"
 			},
 			{
 				"id": 5,
 				"providerName": "Gul Dukat",
-				"serviceId": 2
+				"serviceId": 2,
+				"serviceName": "XRay"
 			}
 		]
 	},
